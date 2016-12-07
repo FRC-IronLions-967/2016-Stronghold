@@ -1,0 +1,30 @@
+package org.usfirst.frc.team967.robot.subsystems;
+
+import edu.wpi.first.wpilibj.command.Subsystem;
+import edu.wpi.first.wpilibj.*;
+import edu.wpi.first.wpilibj.CANTalon.FeedbackDevice;
+import edu.wpi.first.wpilibj.CANTalon.TalonControlMode;
+
+/**
+ *
+ */
+public class Shooter extends Subsystem {
+    CANTalon motor; 
+    // Put methods for controlling this subsystem
+    // here. Call these from Commands.
+
+    public Shooter() {
+    	motor = new CANTalon(5);
+    	motor.changeControlMode(TalonControlMode.Speed);
+    	motor.setFeedbackDevice(FeedbackDevice.QuadEncoder);
+    	motor.reverseSensor(false);
+    }
+    
+    
+    
+    public void initDefaultCommand() {
+        // Set the default command for a subsystem here.
+        //setDefaultCommand(new MySpecialCommand());
+    }
+}
+

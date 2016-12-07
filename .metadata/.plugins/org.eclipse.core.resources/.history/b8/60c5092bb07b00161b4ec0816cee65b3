@@ -1,0 +1,38 @@
+package org.usfirst.frc.team967.robot.subsystems;
+
+import edu.wpi.first.wpilibj.command.Subsystem;
+import org.usfirst.frc.team967.*;
+import org.usfirst.frc.team967.robot.Robot;
+
+import edu.wpi.first.wpilibj.*;
+
+/**
+ *
+ */
+public class driveTrain extends Subsystem {
+    private CANTalon bleft,bright,fleft,fright;
+//    private encoder encoder;
+    // Put methods for controlling this subsystem
+    // here. Call these from Commands.
+    public DriveTrain(){
+    	bleft = new CANTalon(1);
+    	bright = new CANTalon(2);
+    	fleft = new CANTalon(3);
+    	fright = new CANTalon(4);
+    	double leftStick;
+    	double rightStick;
+    }
+    
+    public void tankDrive(){
+    	
+    	leftStick = Robot.oi.getXbox1().getRawAxis(1);
+    //	Robot.oi.getXbox1().getAxis(1);
+    }
+    
+    public void initDefaultCommand() {
+    	setDefaultCommand(new tankDrive());
+        // Set the default command for a subsystem here.
+        //setDefaultCommand(new MySpecialCommand());
+    }
+}
+
