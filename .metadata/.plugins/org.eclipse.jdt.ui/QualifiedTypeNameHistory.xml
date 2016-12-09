@@ -39,4 +39,5 @@
 <fullyQualifiedTypeName name="edu.wpi.first.wpilibj.DoubleSolenoid"/>
 <fullyQualifiedTypeName name="org.usfirst.frc.team967.robot.commands.shiftDrive"/>
 <fullyQualifiedTypeName name="org.usfirst.frc.team967.robot.Robot"/>
+<fullyQualifiedTypeName name="org.usfirst.frc.team967.robot.subsystems.Shooter"/>
 </qualifiedTypeNameHistroy>

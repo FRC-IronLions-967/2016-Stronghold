@@ -6,7 +6,6 @@ import org.usfirst.frc.team967.robot.commands.ClimberToExtended;
 import org.usfirst.frc.team967.robot.commands.ClimberUp;
 import org.usfirst.frc.team967.robot.commands.EjectBall;
 import org.usfirst.frc.team967.robot.commands.HalfDrive;
-import org.usfirst.frc.team967.robot.commands.IntakeArmSpeedSet;
 import org.usfirst.frc.team967.robot.commands.IntakeIn;
 import org.usfirst.frc.team967.robot.commands.IntakeOut;
 import org.usfirst.frc.team967.robot.commands.IntakeStopBelt;
@@ -20,7 +19,6 @@ import org.usfirst.frc.team967.robot.commands.ShiftDriveHigh;
 import org.usfirst.frc.team967.robot.commands.ShiftDriveLow;
 import org.usfirst.frc.team967.robot.commands.Shoot;
 import org.usfirst.frc.team967.robot.commands.SwitchArcadeDriveDirection;
-import org.usfirst.frc.team967.robot.commands.ToggleClimbMode;
 
 import edu.wpi.first.wpilibj.Joystick;
 import edu.wpi.first.wpilibj.buttons.JoystickButton;
@@ -33,7 +31,7 @@ public class OI {
     private Joystick board = new Joystick(2);
     double leftTrigger;
     double rightTrigger;
-    boolean switchDrive;
+    boolean switchDrive;				
     boolean lastswitchDrive;
     boolean lol;
     public AxisButton xbox1_lT = new AxisButton(xbox1, 2, .75, 1);
