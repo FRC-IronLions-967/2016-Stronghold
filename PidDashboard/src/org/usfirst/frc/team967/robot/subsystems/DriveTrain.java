@@ -59,14 +59,14 @@ public class DriveTrain extends Subsystem {
 		gyro = new AnalogGyro(1);
 
 		// Let's show everything on the LiveWindow
-		LiveWindow.addActuator("Drive Train", "Front_Left Motor", (Talon) front_left_motor);
-		LiveWindow.addActuator("Drive Train", "Back Left Motor", (Talon) back_left_motor);
-		LiveWindow.addActuator("Drive Train", "Front Right Motor", (Talon) front_right_motor);
-		LiveWindow.addActuator("Drive Train", "Back Right Motor", (Talon) back_right_motor);
-		LiveWindow.addSensor("Drive Train", "Left Encoder", left_encoder);
-		LiveWindow.addSensor("Drive Train", "Right Encoder", right_encoder);
-		LiveWindow.addSensor("Drive Train", "Rangefinder", rangefinder);
-		LiveWindow.addSensor("Drive Train", "Gyro", gyro);
+//		LiveWindow.addActuator("Drive Train", "Front_Left Motor", (Talon) front_left_motor);
+//		LiveWindow.addActuator("Drive Train", "Back Left Motor", (Talon) back_left_motor);
+//		LiveWindow.addActuator("Drive Train", "Front Right Motor", (Talon) front_right_motor);
+//		LiveWindow.addActuator("Drive Train", "Back Right Motor", (Talon) back_right_motor);
+//		LiveWindow.addSensor("Drive Train", "Left Encoder", left_encoder);
+//		LiveWindow.addSensor("Drive Train", "Right Encoder", right_encoder);
+//		LiveWindow.addSensor("Drive Train", "Rangefinder", rangefinder);
+//		LiveWindow.addSensor("Drive Train", "Gyro", gyro);
 		
 	}
 
@@ -81,14 +81,14 @@ public class DriveTrain extends Subsystem {
 	/**
 	 * The log method puts interesting information to the SmartDashboard.
 	 */
-	public void log() {
-		SmartDashboard.putNumber("Left Distance", left_encoder.getDistance());
-		SmartDashboard.putNumber("Right Distance", right_encoder.getDistance());
-		SmartDashboard.putNumber("Left Speed", left_encoder.getRate());
-		SmartDashboard.putNumber("Right Speed", right_encoder.getRate());
-		SmartDashboard.putNumber("Gyro", gyro.getAngle());
-		SmartDashboard.putNumber("lol", lol);
-	}
+//	public void log() {
+//		SmartDashboard.putNumber("Left Distance", left_encoder.getDistance());
+//		SmartDashboard.putNumber("Right Distance", right_encoder.getDistance());
+//		SmartDashboard.putNumber("Left Speed", left_encoder.getRate());
+//		SmartDashboard.putNumber("Right Speed", right_encoder.getRate());
+//		SmartDashboard.putNumber("Gyro", gyro.getAngle());
+//		SmartDashboard.putNumber("lol", lol);
+//	}
 
 	/**
 	 * Tank style driving for the DriveTrain.

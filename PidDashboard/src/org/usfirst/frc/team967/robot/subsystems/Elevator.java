@@ -42,9 +42,9 @@ public class Elevator extends PIDSubsystem {
         }
 
 		// Let's show everything on the LiveWindow
-        LiveWindow.addActuator("Elevator", "Motor", (Victor) motor);
-        LiveWindow.addSensor("Elevator", "Pot", (AnalogPotentiometer) pot);
-        LiveWindow.addActuator("Elevator", "PID", getPIDController());
+//        LiveWindow.addActuator("Elevator", "Motor", (Victor) motor);
+//        LiveWindow.addSensor("Elevator", "Pot", (AnalogPotentiometer) pot);
+//        LiveWindow.addActuator("Elevator", "PID", getPIDController());
     }
 
     public void initDefaultCommand() {}
@@ -53,7 +53,7 @@ public class Elevator extends PIDSubsystem {
 	 * The log method puts interesting information to the SmartDashboard.
 	 */
     public void log() {
-        SmartDashboard.putData("Wrist Pot", (AnalogPotentiometer) pot);
+//        SmartDashboard.putData("Wrist Pot", (AnalogPotentiometer) pot);
     }
 
     /**

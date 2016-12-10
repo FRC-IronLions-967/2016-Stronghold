@@ -4902,3 +4902,453 @@ This warning can be switched off on the Team > Git > Confirmations and Warnings 
 
 !ENTRY WPILib_Java_Robot_Development 1 0 2016-12-08 20:05:17.807
 !MESSAGE Targets: simulate, Mode: run
+!SESSION 2016-12-10 10:18:40.426 -----------------------------------------------
+eclipse.buildId=4.6.1.M20160907-1200
+java.version=1.8.0_111
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.java.product
+
+!ENTRY org.eclipse.egit.ui 2 0 2016-12-10 10:24:02.108
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\Matt-Behnke-labtop'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2016-12-10 10:24:08.922
+!MESSAGE Installing tools if necessary
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2016-12-10 10:24:08.924
+!MESSAGE Installedtools
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2016-12-10 10:24:08.928
+!MESSAGE Installing java if necessary
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2016-12-10 10:24:08.931
+!MESSAGE Installedjava
+
+!ENTRY WPILib_Java_Robot_Development 1 0 2016-12-10 10:34:12.740
+!MESSAGE Running ant file: C:\FRC\967-2016RobotCode\PidDashboard\build.xml
+
+!ENTRY WPILib_Java_Robot_Development 1 0 2016-12-10 10:34:12.743
+!MESSAGE Targets: deploy, Mode: run
+
+!ENTRY WPILib_Java_Robot_Development 1 0 2016-12-10 10:37:01.677
+!MESSAGE Running ant file: C:\FRC\967-2016RobotCode\PidDashboard\build.xml
+
+!ENTRY WPILib_Java_Robot_Development 1 0 2016-12-10 10:37:01.678
+!MESSAGE Targets: deploy, Mode: run
+
+!ENTRY WPILib_Java_Robot_Development 1 0 2016-12-10 10:39:55.298
+!MESSAGE Running ant file: C:\FRC\967-2016RobotCode\PidDashboard\build.xml
+
+!ENTRY WPILib_Java_Robot_Development 1 0 2016-12-10 10:39:55.300
+!MESSAGE Targets: deploy, Mode: run
+
+!ENTRY WPILib_Java_Robot_Development 1 0 2016-12-10 10:45:20.605
+!MESSAGE Running ant file: C:\FRC\967-2016RobotCode\PidDashboard\build.xml
+
+!ENTRY WPILib_Java_Robot_Development 1 0 2016-12-10 10:45:20.606
+!MESSAGE Targets: deploy, Mode: run
+
+!ENTRY WPILib_Java_Robot_Development 1 0 2016-12-10 10:46:49.898
+!MESSAGE Running ant file: C:\FRC\967-2016RobotCode\PidDashboard\build.xml
+
+!ENTRY WPILib_Java_Robot_Development 1 0 2016-12-10 10:46:49.898
+!MESSAGE Targets: deploy, Mode: run
+
+!ENTRY WPILib_Java_Robot_Development 1 0 2016-12-10 10:47:31.440
+!MESSAGE Running ant file: C:\FRC\967-2016RobotCode\PidDashboard\build.xml
+
+!ENTRY WPILib_Java_Robot_Development 1 0 2016-12-10 10:47:31.441
+!MESSAGE Targets: deploy, Mode: run
+
+!ENTRY WPILib_Java_Robot_Development 1 0 2016-12-10 10:49:29.111
+!MESSAGE Running ant file: C:\FRC\967-2016RobotCode\PidDashboard\build.xml
+
+!ENTRY WPILib_Java_Robot_Development 1 0 2016-12-10 10:49:29.112
+!MESSAGE Targets: deploy, Mode: run
+
+!ENTRY WPILib_Java_Robot_Development 1 0 2016-12-10 10:53:42.681
+!MESSAGE Running ant file: C:\FRC\967-2016RobotCode\PidDashboard\build.xml
+
+!ENTRY WPILib_Java_Robot_Development 1 0 2016-12-10 10:53:42.682
+!MESSAGE Targets: deploy, Mode: run
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2016-12-10 11:01:31.498
+!MESSAGE Failed to download org.eclipse.recommenders:index::zip:0.0.0
+!STACK 0
+org.eclipse.aether.resolution.ArtifactResolutionException: Could not transfer artifact org.eclipse.recommenders:index:zip:0.0.0-SNAPSHOT from/to models (http://download.eclipse.org/recommenders/models/neon/): download.eclipse.org
+	at org.eclipse.aether.internal.impl.DefaultArtifactResolver.resolve(DefaultArtifactResolver.java:444)
+	at org.eclipse.aether.internal.impl.DefaultArtifactResolver.resolveArtifacts(DefaultArtifactResolver.java:246)
+	at org.eclipse.aether.internal.impl.DefaultArtifactResolver.resolveArtifact(DefaultArtifactResolver.java:223)
+	at org.eclipse.aether.internal.impl.DefaultRepositorySystem.resolveArtifact(DefaultRepositorySystem.java:294)
+	at org.eclipse.recommenders.models.ModelRepository.resolveInternal(ModelRepository.java:193)
+	at org.eclipse.recommenders.models.ModelRepository.resolve(ModelRepository.java:172)
+	at org.eclipse.recommenders.internal.models.rcp.EclipseModelRepository.resolve(EclipseModelRepository.java:165)
+	at org.eclipse.recommenders.internal.models.rcp.DownloadModelArchiveJob.run(DownloadModelArchiveJob.java:76)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+Caused by: org.eclipse.aether.transfer.ArtifactTransferException: Could not transfer artifact org.eclipse.recommenders:index:zip:0.0.0-SNAPSHOT from/to models (http://download.eclipse.org/recommenders/models/neon/): download.eclipse.org
+	at org.eclipse.aether.connector.basic.ArtifactTransportListener.transferFailed(ArtifactTransportListener.java:43)
+	at org.eclipse.aether.connector.basic.BasicRepositoryConnector$TaskRunner.run(BasicRepositoryConnector.java:355)
+	at org.eclipse.aether.util.concurrency.RunnableErrorForwarder$1.run(RunnableErrorForwarder.java:67)
+	at org.eclipse.aether.connector.basic.BasicRepositoryConnector$DirectExecutor.execute(BasicRepositoryConnector.java:581)
+	at org.eclipse.aether.connector.basic.BasicRepositoryConnector.get(BasicRepositoryConnector.java:249)
+	at org.eclipse.aether.internal.impl.DefaultArtifactResolver.performDownloads(DefaultArtifactResolver.java:520)
+	at org.eclipse.aether.internal.impl.DefaultArtifactResolver.resolve(DefaultArtifactResolver.java:421)
+	... 8 more
+Caused by: java.net.UnknownHostException: download.eclipse.org
+	at java.net.InetAddress.getAllByName0(Unknown Source)
+	at java.net.InetAddress.getAllByName(Unknown Source)
+	at java.net.InetAddress.getAllByName(Unknown Source)
+	at org.apache.http.impl.conn.SystemDefaultDnsResolver.resolve(SystemDefaultDnsResolver.java:44)
+	at org.apache.http.impl.conn.DefaultClientConnectionOperator.resolveHostname(DefaultClientConnectionOperator.java:259)
+	at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:159)
+	at org.apache.http.impl.conn.ManagedClientConnectionImpl.open(ManagedClientConnectionImpl.java:304)
+	at org.apache.http.impl.client.DefaultRequestDirector.tryConnect(DefaultRequestDirector.java:611)
+	at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:446)
+	at org.apache.http.impl.client.AbstractHttpClient.doExecute(AbstractHttpClient.java:863)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:72)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:57)
+	at org.apache.http.impl.client.DecompressingHttpClient.execute(DecompressingHttpClient.java:158)
+	at org.eclipse.aether.transport.http.HttpTransporter.execute(HttpTransporter.java:287)
+	at org.eclipse.aether.transport.http.HttpTransporter.implGet(HttpTransporter.java:243)
+	at org.eclipse.aether.spi.connector.transport.AbstractTransporter.get(AbstractTransporter.java:59)
+	at org.eclipse.aether.connector.basic.BasicRepositoryConnector$GetTaskRunner.runTask(BasicRepositoryConnector.java:447)
+	at org.eclipse.aether.connector.basic.BasicRepositoryConnector$TaskRunner.run(BasicRepositoryConnector.java:350)
+	... 13 more
+
+!ENTRY org.eclipse.recommenders.models.rcp 1 0 2016-12-10 11:01:31.501
+!MESSAGE org.eclipse.recommenders:index::zip:0.0.0 could not be resolved from the model repositories. Are you offline?
+
+!ENTRY WPILib_Java_Robot_Development 1 0 2016-12-10 11:02:30.396
+!MESSAGE Running ant file: C:\FRC\967-2016RobotCode\PidDashboard\build.xml
+
+!ENTRY WPILib_Java_Robot_Development 1 0 2016-12-10 11:02:30.397
+!MESSAGE Targets: deploy, Mode: run
+
+!ENTRY WPILib_Java_Robot_Development 1 0 2016-12-10 11:08:06.435
+!MESSAGE Running ant file: C:\FRC\967-2016RobotCode\PidDashboard\build.xml
+
+!ENTRY WPILib_Java_Robot_Development 1 0 2016-12-10 11:08:06.436
+!MESSAGE Targets: deploy, Mode: run
+
+!ENTRY WPILib_Java_Robot_Development 1 0 2016-12-10 11:12:36.760
+!MESSAGE Running ant file: C:\FRC\967-2016RobotCode\PidDashboard\build.xml
+
+!ENTRY WPILib_Java_Robot_Development 1 0 2016-12-10 11:12:36.761
+!MESSAGE Targets: deploy, Mode: run
+
+!ENTRY WPILib_Java_Robot_Development 1 0 2016-12-10 11:15:10.762
+!MESSAGE Running ant file: C:\FRC\967-2016RobotCode\PidDashboard\build.xml
+
+!ENTRY WPILib_Java_Robot_Development 1 0 2016-12-10 11:15:10.763
+!MESSAGE Targets: deploy, Mode: run
+
+!ENTRY WPILib_Java_Robot_Development 1 0 2016-12-10 11:16:12.936
+!MESSAGE Running ant file: C:\FRC\967-2016RobotCode\PidDashboard\build.xml
+
+!ENTRY WPILib_Java_Robot_Development 1 0 2016-12-10 11:16:12.937
+!MESSAGE Targets: deploy, Mode: run
+
+!ENTRY WPILib_Java_Robot_Development 1 0 2016-12-10 11:18:34.407
+!MESSAGE Running ant file: C:\FRC\967-2016RobotCode\PidDashboard\build.xml
+
+!ENTRY WPILib_Java_Robot_Development 1 0 2016-12-10 11:18:34.408
+!MESSAGE Targets: deploy, Mode: run
+
+!ENTRY WPILib_Java_Robot_Development 1 0 2016-12-10 11:19:14.582
+!MESSAGE Running ant file: C:\FRC\967-2016RobotCode\PidDashboard\build.xml
+
+!ENTRY WPILib_Java_Robot_Development 1 0 2016-12-10 11:19:14.583
+!MESSAGE Targets: deploy, Mode: run
+
+!ENTRY WPILib_Java_Robot_Development 1 0 2016-12-10 11:20:20.215
+!MESSAGE Running ant file: C:\FRC\967-2016RobotCode\PidDashboard\build.xml
+
+!ENTRY WPILib_Java_Robot_Development 1 0 2016-12-10 11:20:20.216
+!MESSAGE Targets: deploy, Mode: run
+
+!ENTRY WPILib_Java_Robot_Development 1 0 2016-12-10 11:31:33.042
+!MESSAGE Running ant file: C:\FRC\967-2016RobotCode\PidDashboard\build.xml
+
+!ENTRY WPILib_Java_Robot_Development 1 0 2016-12-10 11:31:33.043
+!MESSAGE Targets: deploy, Mode: run
+
+!ENTRY WPILib_Java_Robot_Development 1 0 2016-12-10 11:44:59.618
+!MESSAGE Running ant file: C:\FRC\967-2016RobotCode\PidDashboard\build.xml
+
+!ENTRY WPILib_Java_Robot_Development 1 0 2016-12-10 11:44:59.620
+!MESSAGE Targets: deploy, Mode: run
+
+!ENTRY WPILib_Java_Robot_Development 1 0 2016-12-10 11:53:34.481
+!MESSAGE [org.usfirst.frc.team967.robot.commands [in src [in PidDashboard]]
+  OpenClaw.java
+    package org.usfirst.frc.team967.robot.commands
+    import edu.wpi.first.wpilibj.command.Command
+    import org.usfirst.frc.team967.robot.Robot
+    class OpenClaw
+      OpenClaw()
+      void initialize()
+      void execute()
+      boolean isFinished()
+      void end()
+      void interrupted()
+  DriveStraight.java (not open)
+  TankDriveWithJoystick.java
+    package org.usfirst.frc.team967.robot.commands
+    import org.usfirst.frc.team967.robot.Robot
+    import edu.wpi.first.wpilibj.command.Command
+    class TankDriveWithJoystick
+      TankDriveWithJoystick()
+      void initialize()
+      void execute()
+      boolean isFinished()
+      void end()
+      void interrupted()
+  Place.java
+    package org.usfirst.frc.team967.robot.commands
+    import edu.wpi.first.wpilibj.command.CommandGroup
+    class Place
+      Place()
+  Pickup.java
+    package org.usfirst.frc.team967.robot.commands
+    import edu.wpi.first.wpilibj.command.CommandGroup
+    class Pickup
+      Pickup()
+  SetWristSetpoint.java
+    package org.usfirst.frc.team967.robot.commands
+    import edu.wpi.first.wpilibj.command.Command
+    import org.usfirst.frc.team967.robot.Robot
+    class SetWristSetpoint
+      double setpoint
+      SetWristSetpoint(double)
+      void initialize()
+      void execute()
+      boolean isFinished()
+      void end()
+      void interrupted()
+  CloseClaw.java
+    package org.usfirst.frc.team967.robot.commands
+    import edu.wpi.first.wpilibj.command.Command
+    import org.usfirst.frc.team967.robot.Robot
+    class CloseClaw
+      CloseClaw()
+      void initialize()
+      void execute()
+      boolean isFinished()
+      void end()
+      void interrupted()
+  SetElevatorSetpoint.java
+    package org.usfirst.frc.team967.robot.commands
+    import edu.wpi.first.wpilibj.command.Command
+    import org.usfirst.frc.team967.robot.Robot
+    class SetElevatorSetpoint
+      double setpoint
+      SetElevatorSetpoint(double)
+      void initialize()
+      void execute()
+      boolean isFinished()
+      void end()
+      void interrupted()
+  Autonomous.java
+    package org.usfirst.frc.team967.robot.commands
+    import edu.wpi.first.wpilibj.command.CommandGroup
+    class Autonomous
+      Autonomous()
+  PrepareToPickup.java
+    package org.usfirst.frc.team967.robot.commands
+    import edu.wpi.first.wpilibj.command.CommandGroup
+    class PrepareToPickup
+      PrepareToPickup()
+  SetDistanceToBox.java (not open)
+  [Working copy] ShootSpeed.java
+    package org.usfirst.frc.team967.robot.commands
+    import org.usfirst.frc.team967.robot.Robot
+    import edu.wpi.first.wpilibj.command.Command
+    class ShootSpeed
+      ShootSpeed()
+      void initialize()
+      void execute()
+      boolean isFinished()
+      void end()
+      void interrupted()
+  [Working copy] ShootSpeedDown.java
+    package org.usfirst.frc.team967.robot.commands
+    import org.usfirst.frc.team967.robot.Robot
+    import edu.wpi.first.wpilibj.command.Command
+    class ShootSpeedDown
+      ShootSpeedDown()
+      void initialize()
+      void execute()
+      boolean isFinished()
+      void end()
+      void interrupted()
+  [Working copy] ShootSpeedUp.java
+    package org.usfirst.frc.team967.robot.commands
+    import org.usfirst.frc.team967.robot.Robot
+    import edu.wpi.first.wpilibj.command.Command
+    class ShootSpeedUp
+      ShootSpeedUp()
+      void initialize()
+      void execute()
+      boolean isFinished()
+      void end()
+      void interrupted()]
+
+!ENTRY WPILib_Java_Robot_Development 1 0 2016-12-10 11:53:34.482
+!MESSAGE class org.eclipse.jdt.internal.core.PackageFragment
+
+!ENTRY WPILib_Java_Robot_Development 1 0 2016-12-10 11:53:34.509
+!MESSAGE initialize
+
+!ENTRY WPILib_Java_Robot_Development 1 0 2016-12-10 11:53:34.510
+!MESSAGE Project: P/PidDashboard
+
+!ENTRY WPILib_Java_Robot_Development 1 0 2016-12-10 11:53:43.158
+!MESSAGE Class: Pup Package: org.usfirst.frc.team967.robot.commands
+
+!ENTRY WPILib_Java_Robot_Development 1 0 2016-12-10 11:53:52.146
+!MESSAGE [org.usfirst.frc.team967.robot.commands [in src [in PidDashboard]]
+  OpenClaw.java
+    package org.usfirst.frc.team967.robot.commands
+    import edu.wpi.first.wpilibj.command.Command
+    import org.usfirst.frc.team967.robot.Robot
+    class OpenClaw
+      OpenClaw()
+      void initialize()
+      void execute()
+      boolean isFinished()
+      void end()
+      void interrupted()
+  DriveStraight.java (not open)
+  TankDriveWithJoystick.java
+    package org.usfirst.frc.team967.robot.commands
+    import org.usfirst.frc.team967.robot.Robot
+    import edu.wpi.first.wpilibj.command.Command
+    class TankDriveWithJoystick
+      TankDriveWithJoystick()
+      void initialize()
+      void execute()
+      boolean isFinished()
+      void end()
+      void interrupted()
+  Place.java
+    package org.usfirst.frc.team967.robot.commands
+    import edu.wpi.first.wpilibj.command.CommandGroup
+    class Place
+      Place()
+  Pickup.java
+    package org.usfirst.frc.team967.robot.commands
+    import edu.wpi.first.wpilibj.command.CommandGroup
+    class Pickup
+      Pickup()
+  SetWristSetpoint.java
+    package org.usfirst.frc.team967.robot.commands
+    import edu.wpi.first.wpilibj.command.Command
+    import org.usfirst.frc.team967.robot.Robot
+    class SetWristSetpoint
+      double setpoint
+      SetWristSetpoint(double)
+      void initialize()
+      void execute()
+      boolean isFinished()
+      void end()
+      void interrupted()
+  CloseClaw.java
+    package org.usfirst.frc.team967.robot.commands
+    import edu.wpi.first.wpilibj.command.Command
+    import org.usfirst.frc.team967.robot.Robot
+    class CloseClaw
+      CloseClaw()
+      void initialize()
+      void execute()
+      boolean isFinished()
+      void end()
+      void interrupted()
+  SetElevatorSetpoint.java
+    package org.usfirst.frc.team967.robot.commands
+    import edu.wpi.first.wpilibj.command.Command
+    import org.usfirst.frc.team967.robot.Robot
+    class SetElevatorSetpoint
+      double setpoint
+      SetElevatorSetpoint(double)
+      void initialize()
+      void execute()
+      boolean isFinished()
+      void end()
+      void interrupted()
+  Autonomous.java
+    package org.usfirst.frc.team967.robot.commands
+    import edu.wpi.first.wpilibj.command.CommandGroup
+    class Autonomous
+      Autonomous()
+  PrepareToPickup.java
+    package org.usfirst.frc.team967.robot.commands
+    import edu.wpi.first.wpilibj.command.CommandGroup
+    class PrepareToPickup
+      PrepareToPickup()
+  SetDistanceToBox.java (not open)
+  [Working copy] ShootSpeed.java
+    package org.usfirst.frc.team967.robot.commands
+    import org.usfirst.frc.team967.robot.Robot
+    import edu.wpi.first.wpilibj.command.Command
+    class ShootSpeed
+      ShootSpeed()
+      void initialize()
+      void execute()
+      boolean isFinished()
+      void end()
+      void interrupted()
+  [Working copy] ShootSpeedDown.java
+    package org.usfirst.frc.team967.robot.commands
+    import org.usfirst.frc.team967.robot.Robot
+    import edu.wpi.first.wpilibj.command.Command
+    class ShootSpeedDown
+      ShootSpeedDown()
+      void initialize()
+      void execute()
+      boolean isFinished()
+      void end()
+      void interrupted()
+  [Working copy] ShootSpeedUp.java
+    package org.usfirst.frc.team967.robot.commands
+    import org.usfirst.frc.team967.robot.Robot
+    import edu.wpi.first.wpilibj.command.Command
+    class ShootSpeedUp
+      ShootSpeedUp()
+      void initialize()
+      void execute()
+      boolean isFinished()
+      void end()
+      void interrupted()
+  Pup.java
+    package org.usfirst.frc.team967.robot.commands
+    import edu.wpi.first.wpilibj.command.Command
+    class Pup
+      Pup()
+      void initialize()
+      void execute()
+      boolean isFinished()
+      void end()
+      void interrupted()]
+
+!ENTRY WPILib_Java_Robot_Development 1 0 2016-12-10 11:53:52.147
+!MESSAGE class org.eclipse.jdt.internal.core.PackageFragment
+
+!ENTRY WPILib_Java_Robot_Development 1 0 2016-12-10 11:53:52.155
+!MESSAGE initialize
+
+!ENTRY WPILib_Java_Robot_Development 1 0 2016-12-10 11:53:52.156
+!MESSAGE Project: P/PidDashboard
+
+!ENTRY WPILib_Java_Robot_Development 1 0 2016-12-10 11:54:01.219
+!MESSAGE Class: PDown Package: org.usfirst.frc.team967.robot.commands
+
+!ENTRY WPILib_Java_Robot_Development 1 0 2016-12-10 11:56:21.972
+!MESSAGE Running ant file: C:\FRC\967-2016RobotCode\PidDashboard\build.xml
+
+!ENTRY WPILib_Java_Robot_Development 1 0 2016-12-10 11:56:21.972
+!MESSAGE Targets: deploy, Mode: run

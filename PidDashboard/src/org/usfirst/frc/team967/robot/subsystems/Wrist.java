@@ -42,9 +42,9 @@ public class Wrist extends PIDSubsystem {
         }
 
 		// Let's show everything on the LiveWindow
-        LiveWindow.addActuator("Wrist", "Motor", (Victor) motor);
-        LiveWindow.addSensor("Wrist", "Pot", (AnalogPotentiometer) pot);
-        LiveWindow.addActuator("Wrist", "PID", getPIDController());
+//        LiveWindow.addActuator("Wrist", "Motor", (Victor) motor);
+//        LiveWindow.addSensor("Wrist", "Pot", (AnalogPotentiometer) pot);
+//        LiveWindow.addActuator("Wrist", "PID", getPIDController());
     }
 
     public void initDefaultCommand() {}
@@ -53,7 +53,7 @@ public class Wrist extends PIDSubsystem {
 	 * The log method puts interesting information to the SmartDashboard.
 	 */
     public void log() {
-        SmartDashboard.putData("Wrist Angle", (AnalogPotentiometer) pot);
+//        SmartDashboard.putData("Wrist Angle", (AnalogPotentiometer) pot);
     }
 
     /**

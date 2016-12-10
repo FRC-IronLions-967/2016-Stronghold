@@ -16,18 +16,22 @@ public class OI {
 
     public OI() {
     	// Put Some buttons on the SmartDashboard
-        SmartDashboard.putData("Elevator Bottom", new SetElevatorSetpoint(0));
-        SmartDashboard.putData("Elevator Platform", new SetElevatorSetpoint(0.2));
-        SmartDashboard.putData("Elevator Top", new SetElevatorSetpoint(0.3));
+//        SmartDashboard.putData("Elevator Bottom", new SetElevatorSetpoint(0));
+//        SmartDashboard.putData("Elevator Platform", new SetElevatorSetpoint(0.2));
+//        SmartDashboard.putData("Elevator Top", new SetElevatorSetpoint(0.3));
+//        
+//        SmartDashboard.putData("Wrist Horizontal", new SetWristSetpoint(0));
+//        SmartDashboard.putData("Raise Wrist", new SetWristSetpoint(-45));
+//        
+//        SmartDashboard.putData("Open Claw", new OpenClaw());
+//        SmartDashboard.putData("Close Claw", new CloseClaw());
+//        
+//        SmartDashboard.putData("Deliver Soda", new Autonomous());
         
-        SmartDashboard.putData("Wrist Horizontal", new SetWristSetpoint(0));
-        SmartDashboard.putData("Raise Wrist", new SetWristSetpoint(-45));
-        
-        SmartDashboard.putData("Open Claw", new OpenClaw());
-        SmartDashboard.putData("Close Claw", new CloseClaw());
-        
-        SmartDashboard.putData("Deliver Soda", new Autonomous());
-        
+        SmartDashboard.putData("upSetRpm", new ShootSpeedUp());
+        SmartDashboard.putData("downSetRpm", new ShootSpeedDown());
+        SmartDashboard.putData("P Up", new Pup());
+        SmartDashboard.putData("P Down", new PDown());
         // Create some buttons
         JoystickButton d_up = new JoystickButton(joy, 5);
         JoystickButton d_right= new JoystickButton(joy, 6);
