@@ -4864,3 +4864,41 @@ Caused by: java.net.UnknownHostException: download.eclipse.org
 
 !ENTRY WPILib_Java_Robot_Development 1 0 2016-12-06 20:52:35.338
 !MESSAGE Targets: deploy, Mode: run
+!SESSION 2016-12-08 19:59:56.847 -----------------------------------------------
+eclipse.buildId=4.6.1.M20160907-1200
+java.version=1.8.0_111
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.java.product
+
+!ENTRY org.eclipse.egit.ui 2 0 2016-12-08 20:00:27.121
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\Matt-Behnke-labtop'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2016-12-08 20:00:29.583
+!MESSAGE Installing tools if necessary
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2016-12-08 20:00:29.621
+!MESSAGE Installedtools
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2016-12-08 20:00:29.627
+!MESSAGE Installing java if necessary
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2016-12-08 20:00:29.637
+!MESSAGE Installedjava
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2016-12-08 20:01:10.673
+!MESSAGE [edu.wpi.first.wpilib.plugins.java.wizards.examples.ExampleJavaProject@30d4d6fb, edu.wpi.first.wpilib.plugins.java.wizards.examples.ExampleJavaProject@3fb8e8cf, edu.wpi.first.wpilib.plugins.java.wizards.examples.ExampleJavaProject@4483e237, edu.wpi.first.wpilib.plugins.java.wizards.examples.ExampleJavaProject@6466e599, edu.wpi.first.wpilib.plugins.java.wizards.examples.ExampleJavaProject@721384e0, edu.wpi.first.wpilib.plugins.java.wizards.examples.ExampleJavaProject@a15e4fd, edu.wpi.first.wpilib.plugins.java.wizards.examples.ExampleJavaProject@515c3dd2, edu.wpi.first.wpilib.plugins.java.wizards.examples.ExampleJavaProject@245504d, edu.wpi.first.wpilib.plugins.java.wizards.examples.ExampleJavaProject@6c9fe061, edu.wpi.first.wpilib.plugins.java.wizards.examples.ExampleJavaProject@4988c303, edu.wpi.first.wpilib.plugins.java.wizards.examples.ExampleJavaProject@798ac54d, edu.wpi.first.wpilib.plugins.java.wizards.examples.ExampleJavaProject@51653509, edu.wpi.first.wpilib.plugins.java.wizards.examples.ExampleJavaProject@42ea4bac, edu.wpi.first.wpilib.plugins.java.wizards.examples.ExampleJavaProject@4df50829, edu.wpi.first.wpilib.plugins.java.wizards.examples.ExampleJavaProject@627a1c77, edu.wpi.first.wpilib.plugins.java.wizards.examples.ExampleJavaProject@1acfb04c, edu.wpi.first.wpilib.plugins.java.wizards.examples.ExampleJavaProject@a683f92, edu.wpi.first.wpilib.plugins.java.wizards.examples.ExampleJavaProject@6fb9dab6, edu.wpi.first.wpilib.plugins.java.wizards.examples.ExampleJavaProject@5d12fa92]
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2016-12-08 20:01:10.677
+!MESSAGE [edu.wpi.first.wpilib.plugins.core.wizards.Tag@3ab87cac, edu.wpi.first.wpilib.plugins.core.wizards.Tag@71e740c6, edu.wpi.first.wpilib.plugins.core.wizards.Tag@50aa5826, edu.wpi.first.wpilib.plugins.core.wizards.Tag@1a26eecb, edu.wpi.first.wpilib.plugins.core.wizards.Tag@6382bc3f, edu.wpi.first.wpilib.plugins.core.wizards.Tag@28a821f9, edu.wpi.first.wpilib.plugins.core.wizards.Tag@2a4137a2, edu.wpi.first.wpilib.plugins.core.wizards.Tag@7bcd497, edu.wpi.first.wpilib.plugins.core.wizards.Tag@71a9e31b, edu.wpi.first.wpilib.plugins.core.wizards.Tag@18e7b33e, edu.wpi.first.wpilib.plugins.core.wizards.Tag@3b386ba7, edu.wpi.first.wpilib.plugins.core.wizards.Tag@5a41183b, edu.wpi.first.wpilib.plugins.core.wizards.Tag@644e9953, edu.wpi.first.wpilib.plugins.core.wizards.Tag@4115b8a7, edu.wpi.first.wpilib.plugins.core.wizards.Tag@39889671]
+
+!ENTRY WPILib_Java_Robot_Development 1 0 2016-12-08 20:05:17.806
+!MESSAGE Running ant file: C:\FRC\967-2016RobotCode\GearsBot\build.xml
+
+!ENTRY WPILib_Java_Robot_Development 1 0 2016-12-08 20:05:17.807
+!MESSAGE Targets: simulate, Mode: run
